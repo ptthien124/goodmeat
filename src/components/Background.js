@@ -20,10 +20,10 @@ function Background({ frontImage, behindImage, isTop, top }) {
   const [mouseY, setMouseY] = useState(0);
 
   const handleMouseMove = (e) => {
-    const x = (window.innerWidth - e.pageX * 0.8) / 100;
+    const x = (window.innerWidth - e.pageX * 1) / 100;
     setMouseX(x);
 
-    const y = (window.innerHeight - e.pageY * 0.8) / 100;
+    const y = (window.innerHeight - e.pageY * 1) / 100;
     setMouseY(y);
   };
 
@@ -52,7 +52,7 @@ function Background({ frontImage, behindImage, isTop, top }) {
 
   const behindImgStyles = {
     // transform: `translateY(${(scrollPosition - top) * 0.25}px)`,
-    top: `${(scrollPosition - top) * 0.25}px`,
+    top: `${(scrollPosition - top) * 0.1}px`,
     height: `${isTop ? "1050px" : ""}`,
     transform: `translate(${
       scrollPosition >= top - 300 && scrollPosition < top + 670 ? mouseX : 0
