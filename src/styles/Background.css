@@ -1,0 +1,33 @@
+.background {
+  height: 970px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.background img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: top 0.6s ease-out, -webkit-transform 0.8s;
+  transition: top 0.6s ease-out, -webkit-transform 0.8s;
+  transition: transform 0.8s, top 0.6s ease-out;
+  transition: transform 0.8s, top 0.6s ease-out, -webkit-transform 0.8s;
+}
+
+.background__frontImage {
+  position: relative;
+}
+
+.background__behindImage {
+  position: absolute;
+}
+/*# sourceMappingURL=Background.css.map */
