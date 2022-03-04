@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/goodmeat/static/css/main.0189350f.css",
+    "main.css": "/goodmeat/static/css/main.127c515b.css",
     "main.js": "/goodmeat/static/js/main.d914e790.js",
     "static/js/787.6fafff9e.chunk.js": "/goodmeat/static/js/787.6fafff9e.chunk.js",
     "index.html": "/goodmeat/index.html",
-    "main.0189350f.css.map": "/goodmeat/static/css/main.0189350f.css.map",
+    "main.127c515b.css.map": "/goodmeat/static/css/main.127c515b.css.map",
     "main.d914e790.js.map": "/goodmeat/static/js/main.d914e790.js.map",
     "787.6fafff9e.chunk.js.map": "/goodmeat/static/js/787.6fafff9e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0189350f.css",
+    "static/css/main.127c515b.css",
     "static/js/main.d914e790.js"
   ]
 }
